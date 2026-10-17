@@ -29,3 +29,10 @@ Complete runtime license texts and third-party notices are included at:
 
 - `dist/browser-runtime/<platform>-<arch>/LICENSE`
 - `dist/browser-runtime/<platform>-<arch>/LICENSES.chromium.html`
+
+## Browser runtime restoration
+
+Runtime restoration uses extract-zip 2.0.1 (BSD-2-Clause) and its dependencies.
+The complete license texts are included in `dist/browser-runtime-licenses/`.
+
+- Project: https://github.com/max-mapper/extract-zip
