@@ -17,18 +17,19 @@ The complete license texts are included at:
 
 ## Electron and Chromium
 
-Platform-specific packages include the Electron runtime for AWC Browser, with
-Chromium and its third-party components.
+AWC Browser downloads the Electron runtime, with Chromium and its third-party
+components, on first use. Runtime binaries are not included in the VSIX.
 
 - Project: https://github.com/electron/electron
 - Electron version: 44.7.2
 - Electron license: MIT License
 - Chromium project: https://www.chromium.org/
 
-Complete runtime license texts and third-party notices are included at:
+Complete runtime license texts and third-party notices are included in the
+downloaded runtime directory under VS Code extension storage:
 
-- `dist/browser-runtime/<platform>-<arch>/LICENSE`
-- `dist/browser-runtime/<platform>-<arch>/LICENSES.chromium.html`
+- `browser-runtime/runtimes/<version>-<platform>-<arch>-<sha256>/LICENSE`
+- `browser-runtime/runtimes/<version>-<platform>-<arch>-<sha256>/LICENSES.chromium.html`
 
 ## Browser runtime restoration
 
